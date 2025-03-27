@@ -33,3 +33,9 @@ In this simulation:
 - **Fork Access**:  
   - **Critical Section**: When a philosopher picks up forks to eat.  
   - **Solution**: `std::scoped_lock` is used to lock both forks (the left and the right) simultaneously and in always the same order. This prevents deadlock by ensuring that a philosopher never holds one fork while waiting indefinitely for the other.
+
+#Part 2
+project is in the submodule
+```bash
+git submodule update --init 
+```

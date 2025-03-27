@@ -1,0 +1,4 @@
+[submodule "lockfree"]
+	path = lockfree
+	url = https://github.com/N3ro47/lockfree
+	branch = uni
